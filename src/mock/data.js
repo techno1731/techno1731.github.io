@@ -4,7 +4,7 @@ import { nanoid } from 'nanoid';
 export const headData = {
   title: 'Ennio | Data Scientist', // e.g: 'Name | Developer'
   lang: 'en, es', // e.g: en, es, fr, jp
-  description: 'Welcome to my site', // e.g: Welcome to my website
+  description: 'Welcome to my portfolio site', // e.g: Welcome to my website
 };
 
 // HERO DATA
@@ -28,30 +28,12 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'keras_heroku.png',
+    title: 'Image Classification',
+    info: 'Heroku and streamlit deployment of a simple convolutional nerual network algorith trained with Keras on CIFAR10 dataset.',
+    info2: 'Tech: Python, Keras, Streamlit, Git, Heroku',
+    url: 'https://cnn-cifar10-bts.herokuapp.com/',
+    repo: 'https://github.com/techno1731/Keras_CNN_Cifar10', // if no repo, othe button will not show up
   },
 ];
 
