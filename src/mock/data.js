@@ -35,6 +35,16 @@ export const projectsData = [
     url: 'https://cnn-cifar10-bts.herokuapp.com/',
     repo: 'https://github.com/techno1731/Keras_CNN_Cifar10', // if no repo, othe button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'dash-deploy.png',
+    title: 'ML Dashboard',
+    info: 'Dashboard with a machine learning model on back-end and Dash on Front end, it is a RandonForestRegressor that predicts MPG base on vehicle features.',
+    info2: 'Tech: Python, Sklearn, Dash, Git, AWS ECR, AWS ECS',
+    url: 'http://54.172.50.30:8080/',
+    repo: 'https://github.com/techno1731/RFR_Sklearn_Dash', // if no repo, othe button will not show up
+  },
+
 ];
 
 // CONTACT DATA
