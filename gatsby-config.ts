@@ -8,15 +8,16 @@ const config: GatsbyConfig = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-cara/gatsby-config.js
-    siteTitle: `Cara`,
-    siteTitleAlt: `Cara - Gatsby Starter Portfolio`,
-    siteHeadline: `Cara - Gatsby Theme from @lekoarts`,
-    siteUrl: `https://cara.lekoarts.de`,
-    siteDescription: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+    siteTitle: `Ennio Maldonado`,
+    siteTitleAlt: `Experienced Data Engineer`,
+    siteHeadline: `Ennio Maldonado - Experienced Data Engineer`,
+    siteUrl: `https://www.enniomaldonado.com`,
+    siteDescription: `Experienced Data Engineer transforming how a company is run by enabling them with clean, quality data they can trust.`,
     siteImage: `/banner.jpg`,
-    author: `@lekoarts_de`,
+    author: `Ennio Maldonado`,
   },
   trailingSlash: `never`,
+
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-cara`,
@@ -57,7 +58,10 @@ const config: GatsbyConfig = {
         openAnalyzer: false,
       },
     },
-  ].filter(Boolean) as Array<PluginRef>,
+    "gatsby-plugin-netlify"].filter(Boolean) as Array<PluginRef>,
+
+  pathPrefix: "/techno1731.github.io",
 }
 
 export default config
+
